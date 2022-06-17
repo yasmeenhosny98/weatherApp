@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/drawable/ic_alert.xml" value="0.1855" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/drawable/ic_ask_for_location.xml" value="0.1725" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/drawable/ic_ask_for_loction.xml" value="0.1725" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/drawable/ic_favorite.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/activity_main.xml" value="0.10280797101449275" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/dailog_add_alert.xml" value="0.264" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/dailog_city_weather.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/dailog_loction.xml" value="0.35343383584589616" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/fragment_alert.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/fragment_city_weather_dailog.xml" value="0.6" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/row_alert.xml" value="0.4" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/row_city.xml" value="0.2797527047913447" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/row_day.xml" value="0.264" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/layout/row_hour.xml" value="0.1" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.19166666666666668" />
+        <entry key="..\:/Materials/Kotlen_Projects/Wheather/app/src/main/res/xml/root_preferences.xml" value="0.35648148148148145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bttom_bar_nav"
+    app:startDestination="@id/fragment_home">
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.wheather.home.view.HomeFragment"
+        android:label="@string/home_page"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_map"
+            app:destination="@id/fragment_map" />
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lon"
+            app:argType="string" />
+        <argument android:name="mapFlag"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_favorite"
+        android:name="com.example.wheather.favorite.view.FavoriteFragment"
+        android:label="@string/fav_page"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_fragment_favorite_to_fragment_map"
+            app:destination="@id/fragment_map" />
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lon"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragment_favorite_to_cityWeatherDailog"
+            app:destination="@id/cityWeatherDailog" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_setting"
+        android:name="com.example.wheather.setting.SettingFragment"
+        android:label="@string/setting_page"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.example.wheather.map.view.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_fragment_map_to_fragment_home"
+            app:destination="@id/fragment_home" />
+        <action
+            android:id="@+id/action_fragment_map_to_fragment_favorite"
+            app:destination="@id/fragment_favorite" />
+        <argument
+            android:name="favFlag"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_alert"
+        android:name="com.example.wheather.alert.view.AlertFragment"
+        android:label="@string/alerts_page"
+        tools:layout="@layout/fragment_alert" />
+    <dialog
+        android:id="@+id/cityWeatherDailog"
+        android:name="com.example.wheather.favorite.view.CityWeatherDailog"
+        android:label="fragment_city_weather_dailog"
+        tools:layout="@layout/dailog_city_weather" >
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lon"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+    </dialog>
+</navigation>
